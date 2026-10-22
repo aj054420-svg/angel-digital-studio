@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aj054420-svg.github.io/angel-digital-studio/sitemap.xml
