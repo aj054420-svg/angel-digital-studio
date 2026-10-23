@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Angel Digital Studio | Webs para Barberías Houston - Verificado por Google</title>
+<meta name="description" content="Agencia Verificada por Google Search Console. Creamos webs para barberías en Houston que aparecen en Google en 24h. $500 Web Express 24h.">
+<meta name="google-site-verification" content="33ecf8ef5a93cd05">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Angel Digital Studio","url":"https://aj054420-svg.github.io/angel-digital-studio/","email":"aj054420@gmail.com","description":"Webs para barberías en Houston verificadas por Google","address":{"@type":"PostalAddress","addressLocality":"Houston","addressRegion":"TX"},"sameAs":["https://www.instagram.com/dario55angel"]}
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0a0a0a;color:#fff;line-height:1.6}
+.badge{display:flex;align-items:center;gap:8px;background:#0f2a15;border:1px solid #22c55e;color:#22c55e;padding:8px 14px;border-radius:999px;font-size:12px;font-weight:700;width:fit-content;margin:12px auto}
+.hero{padding:60px 20px;text-align:center;background:radial-gradient(600px at 50% 0%,#1a2e1a,transparent),#0a0a0a}
+.hero h1{font-size:32px;font-weight:900;line-height:1.1;margin:16px 0}
+.hero h1 span{color:#22c55e}
+.hero p{color:#aaa;max-width:600px;margin:0 auto 20px}
+.btn{display:inline-block;padding:14px 22px;border-radius:12px;text-decoration:none;font-weight:800;margin:6px}
+.btn-primary{background:#fff;color:#000}
+.btn-gold{background:#facc15;color:#000}
+.btn-dark{background:#222;color:#fff;border:1px solid #333}
+.card{background:#111;border:1px solid #222;border-radius:16px;padding:20px;margin:12px}
+.price{font-size:28px;font-weight:900}
+.grid{display:grid;grid-template-columns:1fr;gap:12px;max-width:900px;margin:0 auto;padding:20px}
+@media(min-width:768px){.grid{grid-template-columns:1fr 1fr 1fr}.hero h1{font-size:48px}}
+</style>
+</head>
+<body>
+<div class="badge">✅ Verificado por Google Search Console | Sitemap Indexado | Email Oficial Recibido</div>
+
+<section class="hero">
+<h1>Webs para Barberías que <span>Google SÍ encuentra</span></h1>
+<p>Agencia oficial verificada por Google. Entrega 24h. Tu barbería aparece en "barber shop near me" Houston en 24h. No más link que no carga, no más Instagram sin web.</p>
+<a class="btn btn-primary" href="#tienda">Ver Tienda Oficial →</a>
+<a class="btn btn-dark" href="https://aj054420-svg.github.io/angel-digital-studio/sitemap.xml" target="_blank">Ver Sitemap.xml</a>
+</section>
+
+<section style="max-width:900px;margin:0 auto;padding:20px">
+<h2 style="text-align:center;margin:20px 0">Portfolio LIVE - 2 Demos $500</h2>
+<div class="card">
+<h3>✂️ No Lines Barber Studio - Houston Heights</h3>
+<p style="color:#aaa">1206 W 20th St, Houston, TX | Reserva online, Instagram feed</p>
+<a class="btn btn-gold" href="https://no-lines-barber-studio-vx8ea5a9.durable.site" target="_blank">Ver Demo LIVE</a>
+<span style="color:#22c55e;font-weight:700">● LIVE</span>
+</div>
+<div class="card">
+<h3>🔥 Cutthroat Barbers 500 - Washington Ave</h3>
+<p style="color:#aaa">2203 Washington Ave, Houston, TX | 713-864-7000 | Demo personalizado</p>
+<a class="btn btn-gold" href="https://aj054420-svg.github.io/angel-digital-studio/" target="_blank">Ver Demo $500</a>
+<span style="color:#22c55e;font-weight:700">● LIVE - Verificado</span>
+</div>
+</section>
+
+<section id="tienda" style="background:#f5f5f0;color:#111;padding:40px 20px">
+<h2 style="text-align:center;font-size:32px;font-weight:900;color:#111">TIENDA OFICIAL - Compra Directa</h2>
+<p style="text-align:center;color:#555;margin-bottom:20px">Agencia Verificada por Google - Pagos seguros via LemonSqueezy</p>
+<div class="grid">
+<div class="card" style="background:#fff;border-color:#ddd">
+<h3>Pack 150 Prompts Restaurantes</h3>
+<div class="price">$49</div>
+<p style="color:#666;font-size:14px">150 prompts IA para menú, fotos, redes. Vende a restaurantes Houston.</p>
+<a class="btn btn-dark" style="width:100%;text-align:center" href="https://angeldigitalmx.lemonsqueezy.com/checkout/buy/4d728166-0179-42be-8df0-5f5f1e6ca0af" target="_blank">Comprar $49 →</a>
+</div>
+<div class="card" style="background:#fff;border-color:#ddd">
+<h3>10 Canva Templates Barbershops</h3>
+<div class="price">$39</div>
+<p style="color:#666;font-size:14px">10 plantillas Canva editables para barberías. Historias, posts, promos.</p>
+<a class="btn btn-dark" style="width:100%;text-align:center" href="https://angeldigitalmx.lemonsqueezy.com/checkout/buy/5fb3aebf-e5bf-4f79-b11e-9c0ce374aead" target="_blank">Comprar $39 →</a>
+</div>
+<div class="card" style="background:#111;color:#fff;border-color:#000">
+<h3>⚡ WEB EXPRESS 24H</h3>
+<div class="price" style="color:#facc15">$500</div>
+<p style="color:#aaa;font-size:14px">Web completa + Verificación Google + Sitemap + Indexación 24h + Dominio gratis. Lo que acabas de ver.</p>
+<a class="btn btn-gold" style="width:100%;text-align:center" href="https://angeldigitalmx.lemonsqueezy.com/checkout/buy/f545e39b-e816-470b-aba5-cfda3cd5e3f3" target="_blank">Comprar $500 → Entrega 24h</a>
+<p style="color:#22c55e;font-size:12px;text-align:center;margin-top:8px">✅ Verificado por Google - Email oficial recibido</p>
+</div>
+</div>
+</section>
+
+<footer style="padding:30px 20px;text-align:center;color:#666;font-size:13px;border-top:1px solid #222">
+<p><b>Angel Digital Studio</b> - Melchor Ocampo, MX → Servicio Houston, TX</p>
+<p>📧 aj054420@gmail.com | IG @dario55angel | Verificado: google33ecf8ef5a93cd05.html</p>
+<p style="margin-top:8px"><a href="/angel-digital-studio/sitemap.xml" style="color:#666">sitemap.xml</a> | <a href="/angel-digital-studio/robots.txt" style="color:#666">robots.txt</a> | Google Search Console ✅</p>
+<p style="margin-top:12px;color:#444">© 2026 Angel Digital Studio - Agencia Verificada por Google</p>
+</footer>
+</body>
+</html>
