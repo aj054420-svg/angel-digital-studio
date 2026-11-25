@@ -6,6 +6,9 @@
 <title>Tokay Master — Fondos y tonos para tu celular</title>
 <meta name="description" content="Tokay Master: fondos de pantalla, fondos con movimiento y tonos originales para tu celular. Todo gratis, todo original.">
 <meta name="theme-color" content="#0d0d12">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Tokay Master">
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png">
 <link rel="apple-touch-icon" href="./icon-192.png">
@@ -78,7 +81,7 @@ footer{text-align:center;color:var(--muted);font-size:.82rem;padding:20px 16px 3
 </nav>
 <div class="chips" id="chips"></div>
 <main id="content"></main>
-<section class="help">
+<section class="help" id="ayuda">
 <h2>¿Cómo lo pongo en mi celular?</h2>
 <h3 style="font-size:1rem;margin-bottom:4px">🖼️ Poner un fondo de pantalla</h3>
 <ol>
@@ -97,10 +100,12 @@ footer{text-align:center;color:var(--muted);font-size:.82rem;padding:20px 16px 3
 <li>Descarga el tono que te guste.</li>
 <li>Ve a <b>Ajustes → Sonido → Tono de llamada</b> (o <b>Sonido de notificación</b>).</li>
 <li>Toca <b>Agregar / Elegir archivo</b> y busca el tono en tus Descargas.</li>
+<li>En iPhone: descarga el tono y ábrelo en GarageBand para guardarlo como tono de llamada.</li>
 </ol>
 <h3 style="font-size:1rem;margin-bottom:4px">📲 Instalar Tokay Master como app</h3>
 <ol>
 <li>En Chrome toca <b>⋮ → Instalar app</b> o <b>Agregar a pantalla principal</b>.</li>
+<li>En iPhone (Safari): toca <b>Compartir → Añadir a pantalla de inicio</b>.</li>
 <li>Queda su ícono en tu pantalla principal y se abre a pantalla completa, como app.</li>
 <li>Lo que ya viste queda guardado y funciona sin internet.</li>
 </ol>
@@ -160,8 +165,10 @@ document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>{
   b.classList.add('on');tab=b.dataset.tab;cat='Todas';renderChips();render();
 });
 let deferredPrompt=null;
+const isIOS=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+if(isIOS){$('#installBtn').style.display='block';}
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;$('#installBtn').style.display='block';});
-$('#installBtn').addEventListener('click',async()=>{if(!deferredPrompt)return;deferredPrompt.prompt();await deferredPrompt.userChoice;deferredPrompt=null;$('#installBtn').style.display='none';});
+$('#installBtn').addEventListener('click',async()=>{if(isIOS&&!deferredPrompt){document.getElementById('ayuda').scrollIntoView({behavior:'smooth'});return;}if(!deferredPrompt)return;deferredPrompt.prompt();await deferredPrompt.userChoice;deferredPrompt=null;$('#installBtn').style.display='none';});
 if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.serviceWorker.register('./sw.js').catch(()=>{});});}
 renderChips();render();
 </script>
